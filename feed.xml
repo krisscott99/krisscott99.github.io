@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <title>AWS Machine Learning Blog</title>
+  <description>AWS Machine Learning Blog</description>
+  <link>https://your-blog-url.com/post1.html</link>
+  <atom:link href="https://your-blog-url.com/post1-feed.xml" rel="self" type="application/rss+xml" />
+
+  <!-- Include the content from the AWS Machine Learning Blog here -->
+  <item>
+    <title>AWS Machine Learning Blog</title>
+    <description>[Include the excerpt or summary of the blog post]</description>
+    <link>https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-to-help-every-business-embrace-generative-ai/</link>
+    <pubDate>[28 SEP 2023]</pubDate>
+  </item>
+
+</channel>
+
+</rss>

@@ -1,0 +1,15 @@
+/* styles.css */
+
+/* Existing styles... */
+
+#posts h2 {
+    color: blue; /* Change the color of the "Posts" title */
+  }
+  
+  #posts nav a {
+    color: blue; /* Change the color of the links under the "Posts" title */
+  }
+  
+  #posts nav a:hover {
+    color: darkblue; /* Change the color of the links on hover */
+  }

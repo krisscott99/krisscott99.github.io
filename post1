@@ -1,0 +1,33 @@
+<!-- post1.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ... other head elements ... -->
+  <link rel="alternate" type="application/rss+xml" title="Post 1 RSS Feed" href="post1-feed.xml">
+</head>
+<body>
+
+<header>
+  <h1>AWS Machine Learning Blog</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="ethics.html">Ethics</a></li>
+      <li><a href="post1.html">Post 1</a></li>
+      <li><a href="post1-feed.xml">Post 1 RSS Feed</a></li>
+      <!-- Add other navigation links as needed -->
+    </ul>
+  </nav>
+</header>
+
+<!-- Content from the AWS Machine Learning Blog -->
+<section>
+  <h2>AWS Machine Learning Blog</h2>
+  <!-- Include the content from the AWS Machine Learning Blog here -->
+  <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2023/09/28/Updated_slide-1024x572.jpg" width="1024" height="572">
+  <p>[Include the rest of the content here]</p>
+</section>
+
+</body>
+</html>

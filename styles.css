@@ -1,0 +1,157 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0; /* Remove default margin for h1 */
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline; /* Display navigation links horizontally */
+    margin-right: 20px; /* Add some space between links */
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ddd;
+  }
+
+  
+  /* styles.css */
+
+/* Existing styles... */
+
+#posts h2 {
+    color: rgb(0, 0, 0); /* Change the color of the "Posts" title */
+  }
+  
+  #posts nav a {
+    color: blue; /* Change the color of the links under the "Posts" title */
+  }
+  
+  #posts nav a:hover {
+    color: darkblue; /* Change the color of the links on hover */
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    display: block; /* Display links as block elements to stack them vertically */
+    margin-bottom: 10px; /* Add space between the links */
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+
+  /* styles.css */
+
+/* Existing styles... */
+
+#posts nav ul.post-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #posts nav ul.post-links li {
+    margin-bottom: 10px;
+  }
+  
+  #posts nav a {
+    color: blue; /* Change the color of the post links */
+  }
+  
+  #posts nav a:hover {
+    color: darkblue; /* Change the color of the post links on hover */
+  }
+
+/* styles.css */
+
+.description {
+    text-align: middle;
+    max-width: 300px; /* Adjust max-width as needed */
+    margin: 0 auto;
+  }
+
+  /* Add this to your styles.css file or in the head of your HTML file */
+
+body {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+  
+  #posts {
+    display: flex;
+    flex-direction: column; /* Change to column to stack posts vertically */
+  }
+  
+  .post {
+    margin-bottom: 20px; /* Adjust the margin as needed to separate posts */
+  }
+  
+  /* Add this class to the section where you display your post content */
+  
+  .post-content {
+    /* Add styling for your post content here */
+  }
+  
+  /* Add this class to your navigation links to style them */
+  .post-links a {
+    font-size: 20px; /* Adjust the font size for navigation links */
+  }
+
+  /* Add this within your <style> or styles.css file */
+#featured-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0; /* Adjust the margin as needed */
+  }
+  
+  #featured-content article {
+    flex: 0 0 30%; /* Adjust the width as needed */
+  }
+  
+  #featured-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #featured-content h3 {
+    margin-top: 10px;
+  }
+  
+  #featured-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  /* Inside your styles.css file */
+.logo {
+    width: 100px; /* Adjust the width according to your preference */
+    height: auto; /* This ensures the aspect ratio is maintained */
+    margin-right: 10px; /* Optional margin for some space between the logo and the heading */
+  }

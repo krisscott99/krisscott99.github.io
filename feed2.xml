@@ -1,0 +1,22 @@
+<!-- post2-feed.xml -->
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+  <title>Machine Learning Reddit Post</title>
+  <description>Machine Learning Reddit Post</description>
+  <link>https://your-blog-url.com/post2.html</link>
+  <atom:link href="https://your-blog-url.com/post2-feed.xml" rel="self" type="application/rss+xml" />
+
+  <!-- Include the content from the Reddit post here -->
+  <item>
+    <title>Machine Learning Reddit Post</title>
+    <description>[Include the excerpt or summary of the Reddit post]</description>
+    <link>https://www.reddit.com/r/MachineLearning/comments/181o1q4/d_exclusive_sam_altmans_ouster_at_openai_was/</link>
+    <pubDate>[Update with the actual publication date]</pubDate>
+  </item>
+
+</channel>
+
+</rss>
