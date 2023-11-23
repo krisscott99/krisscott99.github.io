@@ -1,5 +1,3 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Mfy6ifSnaV4NTe6YIqCJ+6Yv9eOY/9wjt26LoNVgiB6u0ImASwjFME1sUs1c8jajFAHxCvRGacsI0qdc+Mf53Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      text-align: center; /* Center text in the body */
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header img {
+      display: block;
+      margin: 0 auto 100px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    nav {
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    section#posts {
+      background-color: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    section#posts h2 {
+      margin-bottom: 20px;
+    }
+
+    .post-links {
+      list-style: none;
+      padding: 0;
+    }
+
+    .post-links li {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .description {
+      margin-bottom: 20px;
+    }
+
+    .social-links a {
+      color: #fff;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+  </style>
   <title>Kris's Domain Expansion</title>
 </head>
 <body>
 
 <header>
-  <img src="George_Mason_University_Logo_text.png" alt="Description of Your Image" width="200" height="90">
+  <img src="George_Mason_University_Logo_text.png" alt="Description of Your Image" width="500" height="300">
   <h1>Kris's Domain Expansion</h1>
   <nav>
     <ul>
       <li><a href="about.html">About</a></li>
       <li><a href="ethics.html">Ethics</a></li>
-      <!-- Add other navigation links as needed -->
+      <li><a href="citations.html">Works Cited</a></li>
     </ul>
   </nav>
 </header>
@@ -27,19 +100,14 @@
   <h2>Posts</h2>
   <nav>
     <ul class="post-links">
-      <!-- Update the href attribute to point to feed.xml -->
       <li><a href="https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-to-help-every-business-embrace-generative-ai/" target="_blank">AWS Machine Learning Blog</a></li>
       <li><a href="https://www.reddit.com/r/MachineLearning/comments/181o1q4/d_exclusive_sam_altmans_ouster_at_openai_was/" target="_blank">OpenAI CEO Forum</a></li>
-      <!-- Add other post links as needed -->
+      <li><a href="https://plato.stanford.edu/entries/ethics-ai/" target="_blank">Ethics of AI</a></li>
     </ul>
   </nav>
-
-  <!-- Your post content goes here -->
-
 </section>
 
 <footer>
-  <!-- Description on the right side of the footer -->
   <div class="description">
     <p>This is a description of my website. I wanted to make a website where I can post about interesting blogs and forums about AI, Machine Learning, and other new and advanced technology.</p>
   </div>
